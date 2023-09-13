@@ -11,3 +11,6 @@ cp -r "Simple/bin"/* "${SUME_SDNET}/bin"
 
 mkdir -p "${SUME_SDNET}/templates/externs"
 cp -r "Simple/extern"/* "${SUME_SDNET}/templates/externs"
+
+mkdir -p "${P4_PROJECT_DIR}/sw/hw_test"
+cp -r "Simple/hw_test"/* "${P4_PROJECT_DIR}/sw/hw_test"
