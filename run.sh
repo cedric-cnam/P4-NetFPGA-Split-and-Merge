@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd $SUME_FOLDER
+
 if [[ -z "${P4_PROJECT_NAME}"  ]]; then
 	source tools/settings.sh
 fi
