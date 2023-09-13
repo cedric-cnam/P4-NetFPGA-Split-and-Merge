@@ -15,3 +15,4 @@ $ $SUME_SDNET/bin/make_new_p4_proj.py split_and_merge_full
 6. Run either `bash patch_simple.sh` or `bash patch_full.sh` to copy the source files of the respective design in the proper directories of the original repo.<br>
    **Note:** The patch must be applied everytime to switch between the simple and full versions, as some external modules must be updated accordingly.
 7. Run `bash run.sh` to run the P4->NetFPGA workflow, generating the bitstream in `$NF_DESIGN_DIR/bitfiles`.
+8. Control plane primitives to send control plane messages, process received ones and replay traffic traces are available for the Simple version in `${P4_PROJECT_DIR}/sw/hw_test`

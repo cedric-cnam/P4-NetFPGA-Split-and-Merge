@@ -68,7 +68,7 @@ subnet_cnt = 0
 
 def setup_new_results_file(port):
     global results_name, day_cnt, subnet_cnt
-    results_name = 'results_all/results_' + str(port) + '.csv'
+    results_name = 'results/results_' + str(port) + '.csv'
     day_cnt = 0
     subnet_cnt = 0
     print("new port to analyse: ", port)
